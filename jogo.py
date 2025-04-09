@@ -63,22 +63,22 @@ if comecar == 1:
         if t1 == n1:
             print(t1, end='')
         else:
-            print('-', end='')
+            print(-1, end='')
 
         if t2 == n2:
             print(t2, end='')
         else:
-            print('-', end='')
+            print(-1, end='')
 
         if t3 == n3:
             print(t3, end='')
         else:
-            print('-', end='')
+            print(-1, end='')
 
         if t4 == n4:
             print(t4)
         else:
-            print('-')
+            print(-1)
 
        
        
