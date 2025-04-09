@@ -59,26 +59,26 @@ if comecar == 1:
        
        
         # Mostrar os acertos
-        print("Número: ", end='')
+        print("Número: ", end = '')
         if t1 == n1:
-            print(t1, end='')
+            print(t1, end = '')
         else:
-            print(-1, end='')
+            print('-', end = '')
 
         if t2 == n2:
-            print(t2, end='')
+            print(t2, end = '')
         else:
-            print(-1, end='')
+            print('-', end = '')
 
         if t3 == n3:
             print(t3, end='')
         else:
-            print(-1, end='')
+            print('-', end = '')
 
         if t4 == n4:
             print(t4)
         else:
-            print(-1)
+            print('-')
 
        
        
@@ -93,7 +93,8 @@ if comecar == 1:
        
        
         # Dar dica a partir da 5ª tentativa
-        if contagem_tentativa >= 5:
+        while n1 != t1 or n2 != t2 or n3 != t3 or n4 != t4:
+         if contagem_tentativa >= 5:
             posicao = random.randint(0, 3)
 
             if posicao == 0:
